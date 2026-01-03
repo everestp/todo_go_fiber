@@ -3,9 +3,9 @@
 
 
 import { Flex, Spinner, Stack, Text } from "@chakra-ui/react";
-import { useState } from "react";
+
 import TodoItem from "./TodoItem";
-import { useQuery, useQueryClient } from "@tanstack/react-query";
+import { useQuery } from "@tanstack/react-query";
 import { BASE_URL } from "../App";
   export type Todo = {
     _id:number;
